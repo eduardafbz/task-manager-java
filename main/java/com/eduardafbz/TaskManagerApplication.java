@@ -1,4 +1,4 @@
-package com.eduardafbz.task_manager;
+package com.eduardafbz;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
