@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Editar Tarefa</title>
+</head>
+<body>
+    <h1>Editar Tarefa</h1>
+    
+    <form th:action="@{'/tasks/' + ${task.id}}" method="post">
+        <input type="hidden" name="_method" value="put" />
+        <input type="text" name="description" th:value="${task.description}" required>
+        <button type="submit">Atualizar</button>
+    </form>
+    
+    <a href="/tasks">Voltar para Lista</a>
+</body>
+</html>
