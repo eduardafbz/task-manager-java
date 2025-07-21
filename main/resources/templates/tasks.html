@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <h1>Tarefas Cadastradas</h1>
+    
+    <a href="/tasks/new">Criar Nova Tarefa</a>
+    <ul>
+        <li th:each="task : ${tasks}">
+            <span th:text="${task.description}"></span>
+            <a th:href="@{'/tasks/edit/' + ${task.id}}">Editar</a>
+        </li>
+    </ul>
+</body>
+</html>

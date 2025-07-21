@@ -32,11 +32,10 @@ public class TaskService {
     }
 
     public void delete(Long id) {
-        try {
-            taskRepository.deleteById(id);
-        } catch (ResourceNotFoundException e) {
-            throw new ResourceNotFoundException(id);
+        if (!taskRepository.existsById(id)) {
+        throw new ResourceNotFoundException(id);
         }
+        taskRepository.deleteById(id);
     }
     
 }

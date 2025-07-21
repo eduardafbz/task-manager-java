@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Nova Tarefa</title>
+</head>
+<body>
+    <h1>Criar Nova Tarefa</h1>
+    
+    <form action="/tasks" method="post">
+        <input type="text" name="description" placeholder="Descrição da tarefa" required>
+        <button type="submit">Salvar</button>
+    </form>
+    
+    <a href="/tasks">Voltar para Lista</a>
+</body>
+</html>
