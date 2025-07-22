@@ -13,7 +13,7 @@ import com.eduardafbz.repository.TaskRepository;
 public class TaskService {
     
     @Autowired
-    public TaskRepository taskRepository;
+    private TaskRepository taskRepository;
 
     public Task add(Task task) {
         return taskRepository.save(task);
