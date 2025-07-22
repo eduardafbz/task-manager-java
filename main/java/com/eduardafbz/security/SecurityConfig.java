@@ -19,6 +19,8 @@ public class SecurityConfig {
             .authorizeHttpRequests(auth -> auth
                 .requestMatchers("/users/login", "/users/register").permitAll()
                 .anyRequest().authenticated()
+                .and()
+                .formLogin() //habilita login básico com formulário
             );
 
         return http.build();
