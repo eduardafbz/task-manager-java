@@ -9,8 +9,8 @@ Criar um projeto simples e ir aprimorando gradualmente seus recursos, arquitetur
 ## Tecnologias utilizadas (por nível)
 - Java
 - IDE: VS Code
-- H2 Database (nível 2+)
-- Spring Boot (nível 3+)
+- H2 Database
+- Spring Boot
 - Git & GitHub
 
 ## Níveis de Evolução do Projeto
