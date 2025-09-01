@@ -16,25 +16,25 @@ Criar um projeto simples e ir aprimorando gradualmente seus recursos, arquitetur
 ## Níveis de Evolução do Projeto
 Cada nível representa uma etapa de aprendizado e melhoria da aplicação.
 
-### **Nível 1 – Estrutura Básica (Console e Lista em Memória)**
+### **Nível 1 – Estrutura Básica (Console e Lista em Memória)** ✅
 - CRUD de tarefas (adicionar, listar, atualizar, remover)
 - Interface via terminal com `Scanner`
 - Dados salvos em uma `List<String>`
 - Estrutura simples com classes `Main` e `Functions`
 - Nenhuma persistência (os dados se perdem ao encerrar)
 
-### **Nível 2 – Persistência em Arquivo**
+### **Nível 2 – Persistência em Arquivo** ✅
 - Salvar tarefas em um arquivo `.txt`
 - Carregar tarefas automaticamente na inicialização
 - Uso de `FileWriter` e `BufferedReader`
 - Separação de lógica de persistência
 
-### **Nível 3 – Arquitetura em Camadas**
+### **Nível 3 – Arquitetura em Camadas** ✅
 - Separar responsabilidades em: Model, Service, Repository, Controller
 - Organização de pacotes por domínio
 - Aplicação de boas práticas (ex: princípio da responsabilidade única)
 
-### **Nível 4 – API REST com Spring Boot**
+### **Nível 4 – API REST com Spring Boot** ✅
 - Transformar o sistema em uma API RESTful
 - Endpoints para CRUD de tarefas (`GET`, `POST`, `PUT`, `DELETE`)
 - Retorno e recebimento de dados em JSON
