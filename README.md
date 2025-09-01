@@ -8,7 +8,7 @@ Criar um projeto simples e ir aprimorando gradualmente seus recursos, arquitetur
 
 ## Tecnologias utilizadas (por nível)
 - Java
-- IDE: VS Code
+- IDE: intellij idea
 - H2 Database
 - Spring Boot
 - Git & GitHub
