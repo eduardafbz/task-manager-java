@@ -59,7 +59,7 @@ Cada nível representa uma etapa de aprendizado e melhoria da aplicação.
 - Fazer deploy da API e/ou frontend para acesso externo
 
 ### **Nível 9 – Documentação e Profissionalização**
-- README completo e atualizado ✅
+- README completo e atualizado 
 - Swagger UI para documentação da API
 - Uso de `.gitignore`, boas mensagens de commit e organização do repositório
 
