@@ -44,7 +44,7 @@ Cada nível representa uma etapa de aprendizado e melhoria da aplicação.
 - Pode ser com HTML/CSS/JS ou frameworks como React
 - Separação total entre frontend e backend
 
-### **Nível 6 – Autenticação de Usuários**
+### **Nível 6 – Autenticação de Usuários** ✅
 - Criar sistema de cadastro e login
 - Cada usuário gerencia suas próprias tarefas
 - Uso de tokens JWT e Spring Security
