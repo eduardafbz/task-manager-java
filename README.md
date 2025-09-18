@@ -39,7 +39,7 @@ Cada nível representa uma etapa de aprendizado e melhoria da aplicação.
 - Endpoints para CRUD de tarefas (`GET`, `POST`, `PUT`, `DELETE`)
 - Retorno e recebimento de dados em JSON
 
-### **Nível 5 – Integração com Frontend**
+### **Nível 5 – Integração com Frontend** ✅
 - Criar uma interface web para consumo da API
 - Pode ser com HTML/CSS/JS ou frameworks como React
 - Separação total entre frontend e backend
